@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_small"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="#33b5e6"
+                />
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Display1"
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Titulo"
+                android:textColor="@android:color/white"
+                android:layout_alignBottom="@id/img"
+                android:padding="@dimen/padding_small"
+                />
+
+            <ImageView
+                android:id="@+id/ic_genere"
+                android:layout_width="@dimen/icon_wh"
+                android:layout_height="@dimen/icon_wh"
+                android:src="@mipmap/ic_genere"
+                android:layout_below="@id/img"
+                android:layout_margin="@dimen/padding_small"
+                />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/txt_genere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genero"
+                android:layout_toRightOf="@id/ic_genere"
+                android:layout_alignBottom="@id/ic_genere"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_marginBottom="@dimen/padding_small"
+                />
+
+            <ImageView
+                android:id="@+id/ic_start"
+                android:layout_width="@dimen/icon_wh"
+                android:layout_height="@dimen/icon_wh"
+                android:src="@mipmap/ic_start"
+                android:layout_below="@id/ic_genere"
+                android:layout_marginLeft="@dimen/padding_small"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginRight="@dimen/padding_small"
+                />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:id="@+id/txt_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Score"
+                android:layout_toRightOf="@id/ic_start"
+                android:layout_alignBottom="@id/ic_start"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:layout_marginTop="@dimen/padding_small"
+                />
+
+
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

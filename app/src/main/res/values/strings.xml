@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ViewsSeleccionables</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt">Seleccione un item</string>
+
+    <string-array name="juegos">
+        <item>Halo</item>
+        <item>World of Warcraft</item>
+        <item>Mario Bros</item>
+        <item>Bomberman</item>
+        <item>Pokemon</item>
+    </string-array>
+
+</resources>
