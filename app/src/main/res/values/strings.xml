@@ -13,4 +13,12 @@
         <item>Pokemon</item>
     </string-array>
 
+    <string-array name="juegos_completo">
+        <item>Halo,Shooter,4.3,http://assets.vg247.com/current//2014/09/halo_the_master_chief_collection_3.jpg</item>
+        <item>World of Warcraft,MMO,4.5,http://cft2.igromania.ru/upload/iblock/909/929642/detail.jpg</item>
+        <item>Mario Bros,Plataforma,4.8,http://www.sopitas.com/wp-content/uploads/2013/05/super-mario-bros4.jpg</item>
+        <item>Bomberman,Plataforma,4.1,http://imagenes.es.sftcdn.net/es/scrn/71000/71104/bomberman-online-world-5.jpg</item>
+        <item>Pokemon,Rol,4.3,http://assets3.pokemon.com/assets/cms2-de-de/img/trading-card-game/_tiles/xy07/xy7-announce-169.jpg</item>
+    </string-array>
+
 </resources>

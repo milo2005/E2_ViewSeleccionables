@@ -19,6 +19,11 @@
                 android:layout_height="140dp"
                 android:background="#33b5e6"
                 />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/game_mask"
+                />
             <TextView
                 style="@style/Base.TextAppearance.AppCompat.Display1"
                 android:id="@+id/title"
